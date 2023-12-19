@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Disabled -->
+    <item android:alpha="0.83" android:color="@color/white" android:state_enabled="false"/>
+
+    <!-- Focused -->
+    <item android:color="@color/purple_200" android:state_focused="true"/>
+
+    <!-- Hovered -->
+    <item android:color="@color/black" android:state_hovered="true"/>
+
+    <!-- Normal -->
+    <item android:color="@color/gray"/>
+</selector>

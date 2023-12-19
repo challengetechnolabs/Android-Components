@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
@@ -16,5 +15,14 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item android:title="@string/components">
+            <menu>
+                <item
+                    android:id="@+id/nav_calendar"
+                    android:checkable="true"
+                    android:icon="@drawable/calendar_fill_24px"
+                    android:title="@string/calendar" />
+            </menu>
+        </item>
     </group>
 </menu>

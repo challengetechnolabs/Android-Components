@@ -5,4 +5,5 @@
     <attr name="colorNavigationItemSelected" format="color" />
 
     <attr name="drawableNavigationItemBackground" format="reference" />
+    <attr name="colorOutline" format="reference"/>
 </resources>

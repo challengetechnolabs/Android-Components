@@ -16,6 +16,7 @@
         <!-- Customize your theme here. -->
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
         <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state_dark</item>
+        <item name="colorOutline">@color/strok_color_item_dark</item>
 
     </style>
 
@@ -37,10 +38,6 @@
         <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
     </style>
 
-<!--    <style name="Theme.NavigationDrawer.AppBarOverlay" parent="ThemeOverlay.Material3.Light">-->
-<!--        <item name="android:colorBackground">@color/purple_200</item>-->
-<!--    </style>-->
-
     <style name="Theme.NavigationDrawer.PopupOverlay" parent="Widget.Material3.PopupMenu">
         <item name="popupMenuBackground">@drawable/pop_up_round_dark</item>
     </style>
@@ -61,5 +58,31 @@
     <style name="Theme.Bottom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/blue</item>
     </style>
+
+    <!-- date picker theme -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/blue</item>
+        <item name="boxStrokeColor">?attr/colorOutline</item>
+        <item name="hintTextAppearance">?attr/textAppearanceBodyLarge</item>
+        <item name="helperTextTextAppearance">?attr/textAppearanceBodyMedium</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
+    </style>
+
+    <style name="ThemeOverlay.App.DatePicker" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorOnSurfaceVariant">@color/white</item>
+        <item name="backgroundTint">@color/blue</item>
+        <item name="colorSurface">@color/gray</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Customize text field of the text input mode. -->
+    </style>
+
+    <style name="ThemeOverlay.App.RangeDatePicker" parent="ThemeOverlay.Material3.MaterialCalendar">
+        <item name="colorOnSurfaceVariant">@color/white</item>
+        <item name="backgroundTint">@color/blue</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
 
 </resources>
