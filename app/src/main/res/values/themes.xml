@@ -80,5 +80,10 @@
         <item name="colorOnPrimary">@color/white</item>
     </style>
 
+    <!-- spinner style -->
+    <style name="Widget.App.Spinner" parent="">
+        <item name="android:background">@drawable/spinner_outline_light</item>
+        <item name="android:popupBackground">@drawable/spinner_popup_background_light</item>
+    </style>
 
 </resources>
